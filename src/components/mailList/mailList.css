@@ -1,14 +1,17 @@
 .mail {
-  /* width: 100%; */
+  width: 100%;
   margin-top: 50px;
-  background-color: #003580;
-  color: white;
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 50px;
   overflow: hidden;
+}
+
+.mailInputContainer {
+  padding-bottom: 10px;
 }
 
 .mailInputContainer > input {
@@ -22,8 +25,8 @@
 
 .mailInputContainer > button {
   height: 50px;
-  background-color: #0071c2;
-  color: white;
+  background-color: var(--secondary-blue);
+  color: var(--primary-white);
   font-weight: 500;
   border: none;
   border-radius: 5px;
